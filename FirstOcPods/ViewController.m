@@ -27,6 +27,9 @@
     btn.sd_layout.leftEqualToView(self.view).rightEqualToView(self.view).topEqualToView(self.view).bottomEqualToView(self.view);
     btn.backgroundColor = [UIColor grayColor];
     [XHToast showTopWithText:@"haha"];
+    
+    
+    NSLog(@"you finished");
 }
 
 
