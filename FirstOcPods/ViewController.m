@@ -30,6 +30,8 @@
     
     
     NSLog(@"you finished");
+    
+    NSLog(@"好吧，再改一点。");
 }
 
 
