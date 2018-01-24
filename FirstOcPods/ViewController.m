@@ -21,12 +21,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    UIButton *btn = [UIButton new];
-    [self.view addSubview:btn];
-    
-    btn.sd_layout.leftEqualToView(self.view).rightEqualToView(self.view).topEqualToView(self.view).bottomEqualToView(self.view);
-    btn.backgroundColor = [UIColor grayColor];
-    [XHToast showTopWithText:@"haha"];
 }
 
 
