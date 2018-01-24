@@ -15,6 +15,7 @@
 		0511B8B4201829000000B2F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0511B8B3201829000000B2F0 /* main.m */; };
 		0511B8BE201829000000B2F0 /* FirstOcPodsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0511B8BD201829000000B2F0 /* FirstOcPodsTests.m */; };
 		0511B8C9201829000000B2F0 /* FirstOcPodsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0511B8C8201829000000B2F0 /* FirstOcPodsUITests.m */; };
+		05DED53C20187823008F920D /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DED53B20187823008F920D /* MapViewController.m */; };
 		0FDB7C00E35A029A8F4E8765 /* libPods-FirstOcPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4C466DEBB90F79D4BD67D8 /* libPods-FirstOcPods.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,8 @@
 		0511B8C4201829000000B2F0 /* FirstOcPodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstOcPodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0511B8C8201829000000B2F0 /* FirstOcPodsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstOcPodsUITests.m; sourceTree = "<group>"; };
 		0511B8CA201829000000B2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05DED53A20187823008F920D /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		05DED53B20187823008F920D /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 		51E605384A311AAAB41F950D /* Pods-FirstOcPods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstOcPods.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirstOcPods/Pods-FirstOcPods.debug.xcconfig"; sourceTree = "<group>"; };
 		DB4C466DEBB90F79D4BD67D8 /* libPods-FirstOcPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirstOcPods.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -117,6 +120,8 @@
 				0511B8AF201829000000B2F0 /* LaunchScreen.storyboard */,
 				0511B8B2201829000000B2F0 /* Info.plist */,
 				0511B8B3201829000000B2F0 /* main.m */,
+				05DED53A20187823008F920D /* MapViewController.h */,
+				05DED53B20187823008F920D /* MapViewController.m */,
 			);
 			path = FirstOcPods;
 			sourceTree = "<group>";
@@ -346,6 +351,7 @@
 				0511B8A9201829000000B2F0 /* ViewController.m in Sources */,
 				0511B8B4201829000000B2F0 /* main.m in Sources */,
 				0511B8A6201829000000B2F0 /* AppDelegate.m in Sources */,
+				05DED53C20187823008F920D /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
